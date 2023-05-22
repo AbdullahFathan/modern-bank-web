@@ -4,7 +4,7 @@ import styles from "../style";
 const Stats = () => {
   return (
     <section
-      className={`${styles.flexCenter} sm:flex-row flex-col flex-warp sm:mb-20 mb-6`}
+      className={`${styles.flexCenter} flex-row  flex-wrap sm:mb-20 mb-6`}
     >
       {stats.map((stat) => (
         <div
